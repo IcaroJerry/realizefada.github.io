@@ -1,0 +1,301 @@
+.main-title{
+     height: 80%;
+     width: 80%;
+}
+
+.mf-logo{
+     height: 50px;
+     width: 50px;
+}
+
+
+h1, h3 {
+    text-align: center;
+}
+
+
+ h1 {
+    font-size: 700%;
+}
+
+h3 {
+    color: #430000;
+    font-size: 180%;
+}
+
+
+.container{
+    position: relative;
+}
+
+#background-container{
+    background-color:#fbf3d2;
+    opacity: 0.5;
+    width: 100%;
+    height: 50%;
+}
+
+/**/
+::selection {
+  color: #fff;
+  background: #95aed4;
+}
+::-moz-selection {
+  color: #fff;
+  background: #95aed4;
+}
+html {
+  height: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  position: relative;
+  height: 100%;
+  max-width: 100%;
+  background: #2c2c2c;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  line-height: 1.6em;
+  padding-left: 0 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+/*
+ *	Navigation
+ *  --------------------------------------------------------- */
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-default {
+  background-color: transparent;
+  border: 0;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background: transparent;
+  color: #fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #fff;
+}
+.dropdown-menu > li > a {
+  padding: 7px 20px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.navbar-nav > li > .dropdown-menu {
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+}
+.navmenu-brand {
+  padding: 15px 0;
+  position: relative;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  opacity: 0.8;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #428bca;
+}
+.navbar-toggle {
+  padding: 6px 12px;
+  background-color: transparent;
+  border-radius: 0px;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+  color: #000;
+}
+@media (max-width: 768px) {
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+	background: #1d1d1d;
+	border: 0;
+	border-top: 1px solid #444;
+	box-shadow: none;
+	margin-top: 15px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #999;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #777;
+  }
+}
+.navbar .container{
+	width: 100%;
+	padding: 15px 10%;
+}
+#nav.affix {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3999;
+	background: #1d1d1d;
+	border-radius: 0;
+}
+#nav{
+	position: absolute;
+	width: 100%;
+	z-index: 2001;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+	color: #869198;
+	font-weight: 700;
+}
+.list-inline {
+  margin-left: 0;
+}
+.list-inline li [class*="fa-"] {
+  margin-right: 3px;
+}
+
+/* ---------------------------------------------------------
+ *	Menu button
+ * --------------------------------------------------------- */
+#menuToggle {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+#menuToggle:hover {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+/*
+ * Social icons
+ * --------------------------------------------------------- */
+ .social-top {
+   font-size: 36px;
+   margin-top: 27px;
+ }
+ .social-top a {
+   font-size: 1.1em;
+   padding: 0.2em 0.3em;
+   border: 1px solid #fff;
+   margin: 0 0;
+   width: 63px;
+   height: 63px;
+   display: inline-block;
+   line-height: 50px;
+ }
+.social {
+  font-size: 14px;
+  margin-top: 15px;
+  color: #dd6279
+}
+.social a {
+  font-size: 1.1em;
+  padding: 0 0.3em;
+  border: 1px solid #fff;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  line-height: 28px;
+}
+
+/*
+ *	Buttons
+ *  --------------------------------------------------------- */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+.btn-sm,
+.btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.btn-theme {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.btn-theme:hover,
+.btn-theme .active {
+  color: #000;
+  background-color: #fff;
+}
+.btn-theme-inverse {
+  color: #363636;
+  border-color: #363636;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  transition: all 500ms ease;
+  background: transparent;
+}
+.btn-theme-inverse:hover {
+  color: #fff;
+  background-color: #363636;
+}
